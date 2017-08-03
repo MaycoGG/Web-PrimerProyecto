@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="Br Solutions" content="Garelli-Sanchez"/>
+    <title>www.cabycor.com.ar</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    
+    <script src="js/app.js"></script>
+
+</head>
+<body ng-app="app" ng-controller="PrincipalController">
+    <!-- Menu -->
+    <div class="container-fluid bg-inverse fixed-top">
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded navbar-inverse bg-inverse container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="Logo-Cabycor.png" width="30" height="30" class="d-inline-block align-top" alt=""/>
+                Cabycor
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="Inicio.html"><span class="glyphicon glyphicon-home"></span>Inicio</a>
+                    <a class="nav-item nav-link" href="Empresa.html"><span class="glyphicon glyphicon-home"></span>Empresa</a>
+                    <a class="nav-item nav-link" href="Productos.html"><span class="glyphicon glyphicon-home"></span>Productos</a>
+                    <a class="nav-item nav-link " href="Promociones.html"><span class="glyphicon glyphicon-home"></span>Promociones</a>
+                    <a class="nav-item nav-link " href="Contacto.html"><span class="glyphicon glyphicon-home"></span>Contacto</a>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div ng-view>
+
+        </div>
+    </div>
+    <!-- Fin Menu -->
+
+    
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    
+</body>
+</html>
